@@ -21,7 +21,14 @@ body {
 
 .stats-container {
     display: flex;
-}
+        cursor: pointer;
+        box-shadow: 0 0 30px lightblue;
+        display: flex;
+        justify-content: space-between; /* Ensures even spacing */
+        align-items: center; /* Aligns items vertically */
+        padding: 1%; /* Optional for better spacing */
+    }
+    
 
 .stats-card {
     background-color: #a8b0bc;
